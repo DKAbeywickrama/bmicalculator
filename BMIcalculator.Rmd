@@ -36,7 +36,8 @@ bmi
 
 ```
 
-
+### Link of the repository
+- https://github.com/DKAbeywickrama/bmicalculator
 
 ## Conclusion
 
