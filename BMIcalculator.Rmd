@@ -1,0 +1,45 @@
+---
+title: "BMI Calculator - Reproducible Pitch Presentation"
+output:
+  ioslides_presentation:
+    incremental: true
+---
+
+
+## Introduction
+
+- Body Mass Index (BMI) is a commonly used measure to assess weight status.
+- The BMI Calculator is a Shiny application designed to calculate BMI based on user input for weight and height.
+- This reproducible pitch presentation will introduce the BMI Calculator app and explain its purpose and functionality.
+
+
+## How to Use the BMI Calculator
+
+1. Enter your weight in kilograms.
+2. Enter your height in centimeters.
+3. Click the "Calculate BMI" button.
+4. The app will display your BMI value and category.
+
+
+## Demo
+
+Let's see a demo of the BMI Calculator app in action:
+
+```{r}
+# Demo code
+weight <- 70
+height <- 170
+
+bmi <- weight / (height^2 / 10000)
+
+bmi
+
+```
+
+
+
+## Conclusion
+
+- Recap app functionality
+- Encourage users to try the BMI Calculator
+- Provide additional resources or information
